@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{% block content %}
+<p> content fron Home.</p>
+<p>{{greeting}}</p>
+<p> Best price! 3 for only {{price|intcomma}}!</p>
+{% endblock content %}
